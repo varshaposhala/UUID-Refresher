@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UUID Refresher</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UUID REFRESHER</title>
+  <link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+<script type="module" src="script.js"></script>  
 </head>
-<center>
-    <h1>UUID Refresherr</h1>
-</center>
-<div class="container">
+<body>
+<div>
+  <input type="file" id="fileInput" />
+  <button id="file1">Display JSON</button>
+</div>
+<br>
+<br>
+<div >
 
-    <div>
-        Enter text to change UUIDs.
+    <div class="container">
+        
         <div>
-            <h2>Input</h2>
-            <textarea id="input1"></textarea>
+            <h2>Input JSON</h2>
+            <textarea id="jsonOutput"></textarea>
             <br><button id="process" >Process</button>
         </div>
 
         <div>
-            <h2>Output (text with new UUIDs)</h2>
+            <h2>Output </h2>
             <textarea id="output1"></textarea>
         </div>
         
     </div>
-    </div>
-<br>
-<br>
-<br>
-<br>
+   
+</div>
+
+  
+    
+    
+   
+
+
+
+
+   
 
 </body>
-
-<script type="module" src="script.js"></script>
 
 </html>
